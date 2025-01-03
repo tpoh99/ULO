@@ -101,6 +101,13 @@ jobs:
               fi
             fi
           fi
+
+      - name: Download add-on custom kernel
+        run: |
+          cd core/kernel
+          sudo wget -O 6.1.31-sun50iw9.zip https://drive3.edikurbot.workers.dev/0:findpath?id=1UaFocFqK500b9fv4c0yNKBjYa2hOPg2f
+          sudo unzip 6.1.31-sun50iw9.zip
+          cd ../..
           
       - name: Building OpenWrt
         run: |
