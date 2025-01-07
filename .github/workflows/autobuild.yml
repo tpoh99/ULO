@@ -105,7 +105,7 @@ jobs:
       - name: Download add-on custom kernel
         run: |
           cd core/kernel
-          sudo wget -O 6.1.31-sun50iw9.zip https://drive3.edikurbot.workers.dev/0:findpath?id=1UaFocFqK500b9fv4c0yNKBjYa2hOPg2f
+          sudo wget -O 6.1.31-sun50iw9.zip https://drive3.edikurbot.workers.dev/0:findpath?id=17FjRy_PQTyG4Ot2AcDnHg2i39ICVa1ll
           sudo unzip 6.1.31-sun50iw9.zip
           cd ../..
           
